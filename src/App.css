@@ -1,1 +1,54 @@
 /* Styles */
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=devanagari,latin-ext');
+@import url('https://fonts.googleapis.com/css2?family=Amita&display=swap');
+
+html, body {
+    width: 100%;
+    overflow-x: hidden; 
+}
+
+body {
+    font-family: 'poppins';
+}
+
+/******** Nav bar styles ********/
+nav { 
+    background-color: #fff;
+    border: none;
+    height: 70px;
+    left: 0;
+    margin-bottom: 0;
+    padding: 0 30px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+/******** Wrapper styles ********/
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nav-tab { /* Nav tabs */
+    color: #efbbcc;
+}
+
+/******** Additional styles  ********/
+.my-btn {
+    background-color: #efbbcc; 
+}
+
+.my-btn:hover {
+    background-color: lightgray;
+    color: black;
+}
+

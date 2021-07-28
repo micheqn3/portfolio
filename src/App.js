@@ -1,12 +1,8 @@
 import './App.css';
+import PortfolioContainer from './components/PortfolioContainer';
 
-function App() {
-  return (
-    <div>
-      <h1>Initial commit</h1>
-    </div>
-
-  );
+const App = () => {
+  return (<PortfolioContainer/>);
 }
 
 export default App;
