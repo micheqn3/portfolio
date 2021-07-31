@@ -10,28 +10,28 @@ const ContactModal = () => {
                         <div className="row">
                             <div className="input-field col s12">
                                 <input id="full_name" type="text" name="full_name"></input>
-                                <label class="black-text">Name</label>
+                                <label className="black-text">Name</label>
                             </div>
                         </div>
                         <div className="row">
                             <div className="input-field col s12">
                                 <input id="email" type="text" name="email"></input>
-                                <label class="black-text">Email</label>
+                                <label className="black-text">Email</label>
                             </div>
                         </div>
-                        <div class="row">
-							<div class="input-field col s12">
+                        <div className="row">
+							<div className="input-field col s12">
 								<input id="message" type="text" name="message"></input>
-								<label class="black-text">Message</label>
+								<label className="black-text">Message</label>
 							</div>
 						</div>
-                        <small id="all-fields" class="black-text">*All fields are required</small>
+                        <small id="all-fields" className="black-text">*All fields are required</small>
                     </form>
                 </div>
             </div>
              <div className="modal-footer">
                 <div className="row center-align">
-                    <button id="submit-btn" class="col s6 m6 l6 my-btn btn-small">Submit</button>
+                    <button id="submit-btn" className="col s6 m6 l6 my-btn btn-small">Submit</button>
                     <a href="#!" className="col s6 m6 l6 modal-close waves-effect waves-green btn-small my-btn">Close</a>
                 </div>
             </div>

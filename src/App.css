@@ -38,9 +38,106 @@ nav ul {
     justify-content: center;
 }
 
+.section-name { /* Each section's title */
+    color: #efbbcc;
+    font-size: 30px;
+    font-family: 'Amita', 'poppins';
+}
+
 .nav-tab { /* Nav tabs */
     color: #efbbcc;
 }
+
+/******** Main page styles  ********/
+.section-title {    /* Title font for each section */
+    font-size: 35px;
+    letter-spacing: 0.15em;
+}
+
+.hero-container .hero-text { /* Transition effect for hero text */
+    transition-property: all;
+    transition-duration: .8s; 
+    transition-timing-function: ease;
+}
+
+.hero-image {     /* This will show the background image */
+    background-color: #3F5088;
+    background-size: cover;
+    height: 700px;
+    position: relative;
+}
+
+.hero-text {               /* This will show text inside the background image */
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    letter-spacing: 0;
+}
+
+.hero-text:hover,    /* These will create a transition effect for the main page's hero text */
+.hero-text:active {      /* Styles the hero text pink on hover */
+  letter-spacing: 5px;
+  color: #efbbcc;
+}
+
+.hero-text:after,
+.hero-text:before {
+  backface-visibility: hidden;
+  border: 1px solid rgba(#fff, 0);
+  bottom: 0px;
+  content: " ";
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  transition: all 280ms ease-in-out;
+  width: 0;
+}
+
+.hero-text:hover:after,
+.hero-text:hover:before {
+  backface-visibility: hidden;
+  border-color: #fff;
+  transition: width 350ms ease-in-out;
+  width: 70%;
+}
+
+.hero-text:hover:before {
+  bottom: auto;
+  top: 0;
+  width: 70%;
+}
+
+/******** About me styles ********/
+.selfie {
+    max-width: 250px;
+    max-height: 400px;
+    margin-bottom: 30px;
+}
+
+.about-p {
+    line-height: 20px;
+}
+
+.tech-list{ 
+    font-size: 20px;   
+    margin-top: 20px;  
+    letter-spacing: 0.15em;
+    color: #efbbcc;
+} 
+  
+.tech-list li {   /* Spaces out the listed items in about me */
+    line-height: 30px;
+}
+
+.resume-btn {
+    margin-top: 2%;
+}
+
+
+
 
 /******** Additional styles  ********/
 .my-btn {
@@ -51,4 +148,5 @@ nav ul {
     background-color: lightgray;
     color: black;
 }
+
 

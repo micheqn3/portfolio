@@ -2,10 +2,10 @@
 import React from 'react';
 import Navigation from './Navigation';
 
-const Header = () => {
+const Header = ({page, handlePageChange}) => {
     return (
         <div className="navbar-fixed">
-            <Navigation/>
+            <Navigation page={page} handlePageChange={handlePageChange}/>
         </div>
     );
 }
