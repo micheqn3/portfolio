@@ -1,4 +1,4 @@
-/* Used multiple times in the Portfolio section */
+/* Project component to render all projects in portfolio page */
 import React from 'react';
 
 const Project = (props) => {

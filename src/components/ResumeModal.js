@@ -1,3 +1,5 @@
+/* Resume modal component used in the main page */
+
 import React from 'react';
 
 const ResumeModal = () => {

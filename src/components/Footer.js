@@ -1,4 +1,5 @@
-/* Footer appears on every page */
+/* Footer component appears on every page */
+
 import React from 'react';
 
 const Footer = () => {

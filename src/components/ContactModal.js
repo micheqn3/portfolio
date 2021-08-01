@@ -1,3 +1,5 @@
+/* Contact modal used in nav component */
+
 import React, {useState} from 'react';
 
 const ContactModal = () => {

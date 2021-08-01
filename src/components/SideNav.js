@@ -1,3 +1,5 @@
+/* Side nav component used on mobile devices */
+
 import React from 'react';
 
 const SideNav = ({handlePageChange}) => {

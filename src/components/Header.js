@@ -1,4 +1,5 @@
 /* Header for portfolio container */
+
 import React from 'react';
 import Navigation from './Navigation';
 import SideNav from './SideNav';

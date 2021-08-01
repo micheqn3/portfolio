@@ -1,4 +1,5 @@
-/* Used to conditionally render the different sections of your portfolio */
+/* Navigation component. Used to conditionally render the different sections of the portfolio */
+
 import React from 'react';
 import ContactModal from './ContactModal';
 
