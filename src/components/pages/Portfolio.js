@@ -1,7 +1,25 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import Project from '../Project';
+import {gsap} from 'gsap';
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 const Portfolio = () => {
+
+     // Register scroll trigger plugin
+     gsap.registerPlugin(ScrollTrigger);
+
+     useEffect(() => {
+        gsap.from('.row', {
+            scrollTrigger: {
+              trigger: ".section-name",
+              
+             },
+            opacity: 0,
+            duration: 1,
+            x: 60
+        });
+    }, []);
+
     const row1 = [
         {
             id: 1,
@@ -63,7 +81,5 @@ const Portfolio = () => {
         </div>
     )
 }
-
-
 
 export default Portfolio;
