@@ -8,3 +8,4 @@ I am always looking forward to learning about new technologies & am SO passionat
  - [LinkedIn](https://www.linkedin.com/in/michelle-nguyen-3a2132200/)
  
 ### Link to portfolio:
+ - [Portfolio](https://micheqn3.github.io/portfolio/)
