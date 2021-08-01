@@ -31,8 +31,8 @@ const ContactModal = () => {
             </div>
              <div className="modal-footer">
                 <div className="row center-align">
-                    <button id="submit-btn" className="col s6 m6 l6 my-btn btn-small">Submit</button>
-                    <a href="#!" className="col s6 m6 l6 modal-close waves-effect waves-green btn-small my-btn">Close</a>
+                    <button id="submit-btn" className="col s6 m6 l6 my-btn btn-small waves-light waves-effect">Submit</button>
+                    <a href="#!" className="col s6 m6 l6 modal-close waves-effect waves-light btn-small my-btn">Close</a>
                 </div>
             </div>
         </div> 

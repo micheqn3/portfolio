@@ -4,8 +4,9 @@ import ContactModal from './ContactModal';
 
 const Navigation = ({page, handlePageChange}) => {
     return (
-        <nav>
+        <nav> 
             <div className="nav-wrapper">
+            <a href="#" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons text-darken-4 cyan-text">menu</i></a>
 				<ul className="hide-on-med-and-down">
 					<li><a onClick={() => handlePageChange('main')} className="nav-tab" href="index.html">Home</a></li>
 					<li><a onClick={() => handlePageChange('main')} className="nav-tab" href="#about-me">About Me</a></li>
@@ -15,6 +16,7 @@ const Navigation = ({page, handlePageChange}) => {
             </div>
             <ContactModal/>
         </nav>
+
     )
 }
 

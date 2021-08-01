@@ -5,7 +5,6 @@
 
 html, body {
     width: 100%;
-    overflow-x: hidden; 
 }
 
 body {
@@ -136,8 +135,70 @@ nav ul {
     margin-top: 2%;
 }
 
+/******** Modal styles  ********/
+input[type=text]:not(.browser-default):focus:not([readonly]) {
+    border-bottom: 2px solid pink;
+    box-shadow: 0 0 0 0 pink;
+}
 
+.error {
+    color: red;
+    font-weight: bold;
+} 
 
+/******** Portfolio styles  ********/
+.project-effect {
+    box-shadow: 7px 7px 7px #666;
+    position : relative;
+    transition : all 0.2s;
+    top : 0;
+}
+
+.proj-btn {
+    background-color: white; /* Styles the buttons in the portfolio */
+    color: black;
+    margin-bottom: 2%;
+}
+
+.proj-btn:hover {
+    background-color: lightgray;
+    color: white;
+}
+
+.proj-wrapper {
+    max-width : 500px;
+    margin-left:auto;
+    margin-right:auto;
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+  
+.proj-content {
+    color: black;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 500px;
+    background: #cccc;
+	opacity: 0.9;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    padding: 5%;
+    overflow-y : auto;
+}
+
+.proj-wrapper:hover .proj-content {
+    top: 0;
+}
+
+.proj-content .proj-btn {
+    color: pink;
+    opacity: 1 !important;
+}
 
 /******** Additional styles  ********/
 .my-btn {
@@ -148,5 +209,26 @@ nav ul {
     background-color: lightgray;
     color: black;
 }
+
+.section-title {    /* Title font for each section */
+    font-size: 35px;
+    letter-spacing: 0.15em;
+}
+
+hr {
+    border-color: #cdd1cf;
+    margin: 30px 0 60px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.font16 {
+    font-size: 16px;
+}
+
+
+
 
 
