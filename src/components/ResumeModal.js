@@ -98,7 +98,7 @@ const ResumeModal = () => {
             </div>
             <div className="modal-footer">
                 <div className="row center-align">
-					<a className="col s12 m4 l12 my-btn btn-small" href="https://github.com/micheqn3/uci-unit8-portfolio2/blob/main/Assets/Resume%202021.pdf" download>Download PDF</a>
+					<a className="col s12 m4 l12 my-btn btn-small" href="https://github.com/micheqn3/portfolio/blob/main/Assets/ResumePDF.pdf" download>Download PDF</a>
 					<a className="col s12 m4 l12 my-btn btn-small" href="https://www.linkedin.com/in/michelle-nguyen-3a2132200/"> View LinkedIn Profile</a>
 					<a href="#!" className="modal-close waves-effect waves-light btn-flat">Close</a>
 				</div>
