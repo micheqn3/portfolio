@@ -62,15 +62,15 @@ nav ul {
 .hero-image {     /* This will show the background image */
     background-color: #3F5088;
     background-size: cover;
-    height: 700px;
+    height: 100vh;
     position: relative;
 }
 
 .hero-text {               /* This will show text inside the background image */
     text-align: center;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 40%;
+    left: 65%;
     transform: translate(-50%, -50%);
     color: #fff;
     letter-spacing: 0;
@@ -79,7 +79,7 @@ nav ul {
 .hero-text:hover,    /* These will create a transition effect for the main page's hero text */
 .hero-text:active {      /* Styles the hero text pink on hover */
   letter-spacing: 5px;
-  color: #efbbcc;
+  color: #fff;
 }
 
 .hero-text:after,
@@ -107,6 +107,16 @@ nav ul {
   bottom: auto;
   top: 0;
   width: 70%;
+}
+
+.tech-img {
+    width: auto;
+    top: 45%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    height: 450px;
+
 }
 
 /******** About me styles ********/
