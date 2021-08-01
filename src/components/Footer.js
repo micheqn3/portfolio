@@ -1,8 +1,27 @@
 /* Footer component appears on every page */
 
-import React from 'react';
+// Import components and gsap plugins
+import React, {useEffect} from 'react';
+import {gsap} from 'gsap';
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 const Footer = () => {
+
+    // Register scroll trigger plugin
+    gsap.registerPlugin(ScrollTrigger);
+
+    useEffect(() => {
+        gsap.from(['.copyright', 'i'], {
+            scrollTrigger: {
+              trigger: "#footer",
+              
+             },
+            opacity: 0,
+            duration: 1,
+            y: 60
+        });
+    },[])
+
     return (
         <footer id='footer'>
             <ul className="footer-top">
@@ -22,7 +41,7 @@ const Footer = () => {
                     </a>
                 </li>
             </ul>
-            <div className="align-center black-text">
+            <div className="align-center black-text copyright">
                 © 2021 Made with<i className="fas fa-heart pinkicon"></i>by Mich
             </div>
 		</footer> 

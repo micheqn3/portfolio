@@ -26,7 +26,7 @@ const Main = () => {
     }, []);
 
     useEffect(() => {
-        gsap.from([".tech-list", ".intro"], {
+        gsap.from([".tech-list", ".intro", ".section-name"], {
             scrollTrigger: {
               trigger: ".section-name",
               
