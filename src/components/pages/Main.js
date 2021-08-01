@@ -11,7 +11,7 @@ const Main = () => {
                     <h6>Building things for the web.</h6>
                 </div>
 		    </div> 
-            <div id="about-me" className="aboutme-container">
+            <div id="about-me" className="aboutme-container anchor">
                 <div className="section white">
                     <div className="row container">
                     <h1 className="center-align section-name">About Me</h1>

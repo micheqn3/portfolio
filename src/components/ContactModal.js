@@ -76,7 +76,7 @@ const ContactModal = () => {
 							</div>
 						</div>
                         {errorMessage && (
-                            <small id="all-fields" className="black-text">{errorMessage}</small>
+                            <small id="all-fields" className="red-text">{errorMessage}</small>
                         )}
                     </form>
                 </div>

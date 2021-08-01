@@ -45,7 +45,7 @@ const Portfolio = () => {
     ]
 
     return (
-        <div id="portfolio-container">
+        <div id="portfolio-container" className="anchor">
             <div className="portfolio-section section portfolio-container-holder">
                 <div className="container">
                     <h1 className="center-align section-name">My Work</h1>
