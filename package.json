@@ -1,6 +1,6 @@
 {
-  "homepage": "http://micheqn3.github.io/react-portfolio",
-  "name": "react-portfolio1",
+  "homepage": "http://micheqn3.github.io/portfolio",
+  "name": "portfolio",
   "private": true,
   "version": "0.1.0",
   "dependencies": {

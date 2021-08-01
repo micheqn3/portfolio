@@ -17,7 +17,7 @@ const ResumeModal = () => {
                     </div>
                     <div className="col s9 m8">
                         <p className="center-align"><strong>Certificate, Full Stack Web Development</strong></p>
-                        <p className="center-align">University of California, Irvine Division of Continuing Education</p>
+                        <p className="center-align">University of California, Irvine</p>
                     </div>
                 </div>
                 <div className="row">
@@ -63,7 +63,7 @@ const ResumeModal = () => {
                     <div className="col s12">
                         <h2 className="underline font16 center-align"><strong>Recent Projects</strong></h2>
                         <p className="center-align font16"><strong>Grademy</strong></p>
-						<p><strong>Description:</strong>An all-in-one learning application for students and admin. Users are able to access their courses, perform CRUD operations, and communicate in real-time through an integrated chat window.</p>
+						<p><strong>Description:</strong> An all-in-one learning application for students and admin. Users are able to access their courses, perform CRUD operations, and communicate in real-time through an integrated chat window.</p>
 						<p className="center-align"><strong>Technologies used:</strong></p>
 						<p className="center-align">JavaScript, Node.js, Socket.io, Sequelize, Bcrypt, Dotenv, MySQL, MySQL2, Express, Express Session, Connect-Session-Sequelize, Handlebars, and Materialize</p>
                         <hr></hr>
@@ -72,7 +72,7 @@ const ResumeModal = () => {
                 <div className="row">
                     <div className="col s12">
                         <p className="center-align font16"><strong>Tech Blog</strong></p>
-                        <p><strong>Description:</strong>A CMS blog site where developers can publish their blog posts and comment on other developers' posts as well.</p>
+                        <p><strong>Description:</strong> A CMS blog site where developers can publish their blog posts and comment on other developers' posts as well.</p>
                         <p className="center-align"><strong>Technologies used:</strong></p>
                         <p className="center-align">JavaScript, Node.js, Sequelize, Bcrypt, Dotenv, MySQL, MySQL2, Express, Express Session, Connect-Session-Sequelize, Handlebars, and Materialize</p>
                         <hr></hr>
@@ -81,16 +81,16 @@ const ResumeModal = () => {
                 <div className="row">
                     <div className="col s12">
                         <p className="center-align font16"><strong>PhotoBomb</strong></p>
-                        <p><strong>Description:</strong>An application for users who are looking for a wallpaper for their device. Following retrieval of the user’s current likes, the application gives a weight to each photo category and curates personalized wallpapers. Users also have the option to search through categories and keywords for photos they would like to save, download, and send.</p>
+                        <p><strong>Description:</strong> An application for users who are looking for a wallpaper for their device. Following retrieval of the user’s current likes, the application gives a weight to each photo category and curates personalized wallpapers. Users also have the option to search through categories and keywords for photos they would like to save, download, and send.</p>
                         <p className="center-align"><strong>Technologies used:</strong></p>
-                        <p className="center-align">JavaScript, jQuery, Materialize, Unsplash API, and T.LY API</p>
+                        <p className="center-align">JavaScript, jQuery, Materialize, Unsplash API, and T.LY URL shortener</p>
                         <hr></hr>
                     </div>
                 </div>
                 <div className="row">
                     <div className="col s12">
                         <p className="center-align font16"><strong>Workout Tracker</strong></p>
-                        <p><strong>Description:</strong>A workout tracker that allows the user to view, create, and track daily workouts. Users can also view stats from the last 7 workouts.</p>
+                        <p><strong>Description:</strong> A workout tracker that allows the user to view, create, and track daily workouts. Users can also view stats from the last 7 workouts.</p>
                         <p className="center-align"><strong>Technologies used:</strong></p>
                         <p className="center-align">JavaScript, Node.js, MongoDB, Express, Mongoose, Morgan, and Nodemon</p>
                     </div>
