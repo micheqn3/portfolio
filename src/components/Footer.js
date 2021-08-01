@@ -1,1 +1,31 @@
 /* Footer appears on every page */
+import React from 'react';
+
+const Footer = () => {
+    return (
+        <footer id='footer'>
+            <ul className="footer-top">
+                <li className='social-effect'>
+                    <a className="tooltipped" data-position="top" data-tooltip="Email" href="mailto:michellenguyen11239@aolmail.com">
+                        <i className="fa fa-envelope fa-2x pinkicon"></i>
+                    </a>
+                </li>
+                <li className='social-effect'>
+                    <a className="tooltipped" data-position="top" data-tooltip="Github" href="https://github.com/micheqn3">
+                        <i className="fab fa-github-square fa-2x pinkicon"></i>
+                    </a>
+                </li>
+                <li className='social-effect'>
+                    <a className="tooltipped" data-position="top" data-tooltip="LinkedIn" href="https://www.linkedin.com/in/michelle-nguyen-3a2132200/">
+                        <i className="fab fa-linkedin fa-2x pinkicon"></i>
+                    </a>
+                </li>
+            </ul>
+            <div className="align-center black-text">
+                © 2021 Made with<i className="fas fa-heart pinkicon"></i>by Mich
+            </div>
+		</footer> 
+    )
+}
+
+export default Footer;

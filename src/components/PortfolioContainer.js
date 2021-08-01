@@ -2,7 +2,8 @@
 import React, {useState} from 'react';
 import Header from './Header';
 import Main from './pages/Main';
-import Portfolio from './pages/Portfolio'
+import Portfolio from './pages/Portfolio';
+import Footer from './Footer';
 
 const PortfolioContainer = () => {
     const [page, setPage] = useState('main');
@@ -26,6 +27,7 @@ const PortfolioContainer = () => {
             <div className="wrapper">
                 <Header page={page} handlePageChange={handlePageChange}/>
                 {renderPage()}
+                <Footer/>
             </div>
         </div>
     )
