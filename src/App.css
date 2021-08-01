@@ -182,7 +182,6 @@ input[type=text]:not(.browser-default):focus:not([readonly]) {
     left: 0;
     top: 500px;
     background: #cccc;
-	opacity: 0.9;
     -moz-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
@@ -191,13 +190,16 @@ input[type=text]:not(.browser-default):focus:not([readonly]) {
     overflow-y : auto;
 }
 
+.proj-content:after {
+    opacity: 0.9;
+}
+
 .proj-wrapper:hover .proj-content {
     top: 0;
 }
 
 .proj-content .proj-btn {
-    color: pink;
-    opacity: 1 !important;
+    color: #efbbcc; 
 }
 
 /******** Additional styles  ********/
