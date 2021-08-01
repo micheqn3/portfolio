@@ -6,7 +6,7 @@ const Footer = () => {
         <footer id='footer'>
             <ul className="footer-top">
                 <li className='social-effect'>
-                    <a className="tooltipped" data-position="top" data-tooltip="Email" href="mailto:michellenguyen11239@aolmail.com">
+                    <a className="tooltipped" data-position="top" data-tooltip="Email" href="mailto:michellenguyen11239@aol.com">
                         <i className="fa fa-envelope fa-2x pinkicon"></i>
                     </a>
                 </li>

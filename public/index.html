@@ -28,38 +28,6 @@
       // Initializes the tool tip
       $('.tooltipped').tooltip();
     });
-
-    $('#submit-btn').on('click', (e) => {
-      e.preventDefault()
-      console.log('hi')
-    })
-
-    /*
-
-    $("#submit-btn").on("click", function(e) { // Stores all data into my google sheets using API spread sheets
-    e.preventDefault();
-    console.log('hi')
-    if($('#full_name').val() == '' || $('#email').val() == '' || $('#message').val() == ''){ // Validation for if the user doesn't enter in all inputs
-      $("#all-fields").removeClass("black-text");
-      $("#all-fields").addClass("error");
-    } else {
-    console.log("All inputs filled");
-
-    $.ajax({
-      url:'https://api.apispreadsheets.com/data/12070/',
-      type:'post',
-      data:$("#myForm").serializeArray(),
-      success: function(){
-        location.reload(); // Reloads screen after successful call 
-      },
-      error: function(){
-        console.log("bad")
-      }
-    });
-    $("#modal2").modal(); // Closes the modal when form is submitted
-    }
-  })
-  */
   </script>
 </body>
 
