@@ -50,7 +50,7 @@ const Main = () => {
     }, []);
 
     return (
-        <div>
+        <div id="main">
             <div className= "hero-container hero-image">
                 <img src={process.env.PUBLIC_URL + '/images/tech.svg'} alt= "Programmer SVG" className= "tech-img"></img>
                 <div className= "hero-text">
@@ -64,7 +64,7 @@ const Main = () => {
                     <div className="row container">
                     <h1 className="center-align section-name">About Me</h1>
                         <div className="col l6 s12 center-align">
-                            <img src={process.env.PUBLIC_URL + '/images/5-2021-1.JPG'} alt= "Profile picture" className= "selfie"></img>
+                            <img src={process.env.PUBLIC_URL + '/images/5-2021-1.JPG'} alt= "Profile" className= "selfie"></img>
                         </div>
                         <br></br><br></br><br></br>
                         <div className="col l6 s12 center-align">

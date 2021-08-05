@@ -30,6 +30,10 @@ nav ul {
     justify-content: center;
 }
 
+.active-nav {
+    color: gray!important;
+}
+
 /******** Wrapper styles ********/
 .wrapper {
     display: flex;
