@@ -61,20 +61,23 @@ const ContactModal = () => {
                     <form id="myForm" className="col s12 form-center">
                         <div className="row">
                             <div className="input-field col s12">
-                                <input value={name} id="full_name" type="text" name="name" onChange={handleInputChange}></input>
-                                <label className="black-text">Name</label>
+                                <input value={name} id="full_name" type="text" name="name" className="validate" onChange={handleInputChange}required/>
+                                <label className="black-text" htmlFor='full_name'>Name</label>
+                                <span className='helper-text' data-error='Please enter a name.' data-success=''></span>
                             </div>
                         </div>
                         <div className="row">
                             <div className="input-field col s12">
-                                <input value={email} id="email" type="text" name="email" onChange={handleInputChange}></input>
-                                <label className="black-text">Email</label>
+                                <input value={email} id='email' type='email' className='validate' name="email" onChange={handleInputChange}required/>
+                                <label className="black-text" htmlFor='email'>Email</label>
+                                <span className='helper-text' data-error='Invalid email.' data-success=''></span>
                             </div>
                         </div>
                         <div className="row">
 							<div className="input-field col s12">
-								<input value={message} id="message" type="text" name="message" onChange={handleInputChange}></input>
-								<label className="black-text">Message</label>
+								<input value={message} id="message" type="text" name="message" onChange={handleInputChange} className="validate"required/>
+								<label className="black-text" htmlFor='message'>Message</label>
+                                <span className='helper-text' data-error='Please enter a message.' data-success=''></span>
 							</div>
 						</div>
                         {errorMessage && (
