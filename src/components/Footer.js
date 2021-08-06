@@ -11,7 +11,7 @@ const Footer = () => {
     gsap.registerPlugin(ScrollTrigger);
 
     useEffect(() => {
-        gsap.from(['.copyright', 'i'], {
+        gsap.from(['.copyright', '.pinkicon'], {
             scrollTrigger: {
               trigger: "#footer",
               
