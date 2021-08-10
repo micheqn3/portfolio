@@ -40,6 +40,11 @@ const Footer = () => {
                         <i className="fab fa-linkedin fa-2x pinkicon"></i>
                     </a>
                 </li>
+                <li className='social-effect'>
+                    <a className="tooltipped" data-position="top" data-tooltip="Instagram" href="https://www.instagram.com/mitchiii11239/?hl=en">
+                        <i className="fab fa-instagram fa-2x pinkicon"></i>
+                    </a>
+                </li>
             </ul>
             <div className="align-center black-text copyright">
                 © 2021 Made with<i className="fas fa-heart pinkicon"></i>by Mich
