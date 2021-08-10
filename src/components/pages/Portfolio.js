@@ -62,6 +62,27 @@ const Portfolio = () => {
         }
     ]
 
+    const row3 = [
+        {
+            id: 5,
+            src: '/budget-tracker.png',
+            alt: 'Budget tracker screenshot', 
+            link: 'https://progressive-budget-micheqn3.herokuapp.com/',
+            description: "A PWA application that allows the user to track their personal finances",
+            tech: 'JS, Node.js, IndexedDB, MongoDB, Express, Mongoose, Compression, and Nodemon',
+            github: 'https://github.com/micheqn3/progressive-budget'
+        },
+        {
+            id: 6,
+            src: '/weather-dash.png',
+            alt: 'Weather dashboard screenshot', 
+            link: 'https://micheqn3.github.io/weather-dashboard/',
+            description: "This application uses OpenWeather API to fetch 5-day weather data for the user to view.",
+            tech: 'JS, jQuery, Materialize, Unsplash API, and T.LY API',
+            github: 'https://github.com/micheqn3/weather-dashboard'
+        },
+    ]
+
     return (
         <div id="portfolio-container" className="anchor">
             <div className="portfolio-section section portfolio-container-holder">
@@ -74,6 +95,9 @@ const Portfolio = () => {
                         </div>
                         <div className="row"> {/* Row 2 */}
                         {row2.map(proj => <Project src={proj.src} alt={proj.alt} link={proj.link} description={proj.description} tech={proj.tech} github={proj.github} key={proj.id}/>)}
+                        </div>
+                        <div className="row"> {/* Row 3 */}
+                        {row3.map(proj => <Project src={proj.src} alt={proj.alt} link={proj.link} description={proj.description} tech={proj.tech} github={proj.github} key={proj.id}/>)}
                         </div>
                     </div>
                 </div>
