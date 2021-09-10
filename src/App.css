@@ -151,12 +151,12 @@ nav ul {
 
 /******** Modal styles  ********/
 input[type=text]:not(.browser-default):focus:not([readonly]) {
-    border-bottom: 2px solid lightgray;
+    border-bottom: 2px solid pink;
     box-shadow: 0 0 0 0 pink;
 }
 
 input[type=email]:not(.browser-default):focus:not([readonly]) {
-    border-bottom: 2px solid lightgray;
+    border-bottom: 2px solid pink;
     box-shadow: 0 0 0 0 pink;
 }
 

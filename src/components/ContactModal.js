@@ -55,44 +55,43 @@ const ContactModal = () => {
     
     return (
         <div id="modal2" className="modal">
-            <div className="modal-content black-text center-align">
-                <h5>Send Me A Message</h5>
-                <div className="row">
-                    <form id="myForm" className="col s12 form-center">
-                        <div className="row">
-                            <div className="input-field col s12">
-                                <input value={name} id="full_name" type="text" name="name" className="validate" onChange={handleInputChange}required/>
-                                <label className="black-text" htmlFor='full_name'>Name</label>
-                                <span className='helper-text' data-error='Please enter a name.' data-success=''></span>
-                            </div>
-                        </div>
-                        <div className="row">
-                            <div className="input-field col s12">
-                                <input value={email} id='email' type='email' className='validate' name="email" onChange={handleInputChange}required/>
-                                <label className="black-text" htmlFor='email'>Email</label>
-                                <span className='helper-text' data-error='Invalid email.' data-success=''></span>
-                            </div>
-                        </div>
-                        <div className="row">
-							<div className="input-field col s12">
-								<input value={message} id="message" type="text" name="message" onChange={handleInputChange} className="validate"required/>
-								<label className="black-text" htmlFor='message'>Message</label>
-                                <span className='helper-text' data-error='Please enter a message.' data-success=''></span>
-							</div>
-						</div>
-                        {errorMessage && (
-                            <small id="all-fields" className="red-text">{errorMessage}</small>
-                        )}
-                    </form>
-                </div>
-            </div>
-             <div className="modal-footer">
-                <div className="row center-align">
+            <div className="modal-content center-align black-text">
+                <h4>Send Message</h4>
+                <div className="input-field col s12 l6 offset-l3">
+                    <input 
+                    className="black-text"
+                    placeholder="Name" 
+                    type="text" 
+                    className="center-align"
+                    onChange={handleInputChange}
+                    value={name}
+                    name="name"
+                    />
+                    <input 
+                    placeholder="Email" 
+                    type="text" 
+                    className="center-align"
+                    onChange={handleInputChange}
+                    value={email}
+                    name="email"
+                    />
+                    <input 
+                    placeholder="Message" 
+                    type="text" 
+                    className="center-align"
+                    onChange={handleInputChange}
+                    value={message}
+                    name="message"
+                    />
                     <button onClick={handleFormSubmit} id="submit-btn" className="col s6 m6 l6 my-btn btn-small waves-light waves-effect">Submit</button>
-                    <a href="#!" className="col s6 m6 l6 modal-close waves-effect waves-light btn-small my-btn">Close</a>
+                    {errorMessage && (
+                        <div>
+                            <p className="red-text">{errorMessage}</p>
+                        </div>
+                    )}
                 </div>
             </div>
-        </div> 
+        </div>
     )
 }
 
