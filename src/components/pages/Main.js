@@ -89,6 +89,7 @@ const Main = () => {
                 </div>
                 {<ResumeModal/>}
             </div>
+            <hr className="my-hr"></hr>
         </div>
     )
 }
