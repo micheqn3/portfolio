@@ -38,48 +38,48 @@ const Portfolio = () => {
             description: "A CMS blog site where developers can publish their blog posts and comment on other developers' posts as well.",
             tech: 'JS, Node.js, Sequelize, Bcrypt, Dotenv, MySQL, MySQL2, Express, Express Session, Connect-Session-Sequelize, Handlebars, and Materialize',
             github: 'https://github.com/micheqn3/my-tech-blog'
-        }
+        },
     ]
 
     const row2 = [
         {
             id: 3,
+            src: '/search-and-the-city.png',
+            alt: 'Search and the city screenshot', 
+            link: 'https://search-and-the-city.herokuapp.com/',
+            description: 'A travel app that allows the user to plan their itinerary based on weather, top restaurants, and nearby events.',
+            tech: 'JS, Node.js, React, Express, MongoDB, Mongoose, GraphQL, Apollo Server Express + Client, JSON Web Token, Jwt-decode, Bcrypt, GSAP, Axios, Yelp Fusion API, Open Weather API, and Materialize-CSS.',
+            github: 'https://github.com/micheqn3/search-and-the-city'
+        },
+        {
+            id: 4,
             src: '/photobomb.png',
             alt: 'Photobomb screenshot', 
             link: 'https://reddituser7777.github.io/PhotoBomb/index.html',
             description: "A wallpaper app that will curate wallpapers the user may like based on their 'likes' and 'dislikes' from a quick assessment.",
             tech: 'JS, jQuery, Materialize, Unsplash API, and T.LY API',
             github: 'https://github.com/micheqn3/PhotoBomb'
-        },
-        {
-            id: 4,
-            src: '/workout-tracker.png',
-            alt: 'Workout tracker screenshot', 
-            link: 'https://workout-tracker-micheqn3.herokuapp.com/',
-            description: "A workout tracker that allows the user to view, create, and track daily workouts.",
-            tech: 'JS, Node.js, MongoDB, Express, Mongoose, Morgan, and Nodemon',
-            github: 'https://github.com/micheqn3/workout-tracker'
         }
     ]
 
     const row3 = [
         {
             id: 5,
+            src: '/workout-tracker.png',
+            alt: 'Workout tracker screenshot', 
+            link: 'https://workout-tracker-micheqn3.herokuapp.com/',
+            description: "A workout tracker that allows the user to view, create, and track daily workouts.",
+            tech: 'JS, Node.js, MongoDB, Express, Mongoose, Morgan, and Nodemon',
+            github: 'https://github.com/micheqn3/workout-tracker'
+        },
+        {
+            id: 6,
             src: '/budget-tracker.png',
             alt: 'Budget tracker screenshot', 
             link: 'https://progressive-budget-micheqn3.herokuapp.com/',
             description: "A PWA application that allows the user to track their personal finances",
             tech: 'JS, Node.js, IndexedDB, MongoDB, Express, Mongoose, Compression, and Nodemon',
             github: 'https://github.com/micheqn3/progressive-budget'
-        },
-        {
-            id: 6,
-            src: '/weather-dash.png',
-            alt: 'Weather dashboard screenshot', 
-            link: 'https://micheqn3.github.io/weather-dashboard/',
-            description: "This application uses OpenWeather API to fetch 5-day weather data for the user to view.",
-            tech: 'JS, jQuery, Materialize, Unsplash API, and T.LY API',
-            github: 'https://github.com/micheqn3/weather-dashboard'
         },
     ]
 
